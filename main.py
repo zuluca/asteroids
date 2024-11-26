@@ -59,7 +59,7 @@ def main():
         for a in asteroids:
             for s in shots:
                 if a.colliding(s):
-                    a.split()
+                    a.split(screen)
                     s.kill()
 
 
